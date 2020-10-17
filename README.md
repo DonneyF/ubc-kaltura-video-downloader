@@ -1,3 +1,11 @@
+# DEPRECATED
+
+[ffmpeg](https://ffmpeg.org/) is a more robust video stream downloader. To download the video, one simply needs to identify the `.m3u8` playlist file and call
+
+```
+ffmpeg -i <url> -c copy <output>
+```
+
 # UBC Kultura Downloader
 **UBC Kultura Downloader** is a script that, given the URL video stream segment served by Kultura hosted on UBC, can get all the pieces to the video, download them, and stitch them together to a full-length video.
 
